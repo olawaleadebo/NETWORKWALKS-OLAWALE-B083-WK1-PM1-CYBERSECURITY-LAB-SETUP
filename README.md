@@ -30,7 +30,7 @@ It can be used for activities such as:
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 ________________________________________
 🏗️ Lab Architecture
- https://github.com/olawaleadebo/NETWORKWALKS-OLAWALE-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/network%20.png
+ https://github.com/olawaleadebo/NETWORKWALKS-OLAWALE-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/Kali%20desktop.png
 ________________________________________
 ⚙️ Lab Configuration
 🧩 Component	⚙️ Configuration
@@ -58,7 +58,7 @@ ________________________________________
 Step 3. Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
 Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
- 
+ https://github.com/olawaleadebo/NETWORKWALKS-OLAWALE-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/network%20.png
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 This will allow future attacker and target VMs to communicate within the lab.
 ________________________________________
@@ -71,6 +71,8 @@ Network:     NatNetwork
 Adapter Type: Intel PRO/1000 MT Desktop
 The VM was allocated:
 RAM: 7048 MB
+https://github.com/olawaleadebo/NETWORKWALKS-OLAWALE-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/Kali%20desktop.png
+
  A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 ________________________________________
 Step 5. Configure the Kali Linux Network
@@ -81,7 +83,7 @@ Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
 DNS: 8.8.8.8
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
- 
+https://github.com/olawaleadebo/NETWORKWALKS-OLAWALE-B083-WK1-PM1-CYBERSECURITY-LAB-SETUP/blob/main/network%20on%20kali.png 
 ________________________________________
 Step 6. Create a Clean VM Snapshot
 After completing the initial configuration, a VirtualBox snapshot was created.
